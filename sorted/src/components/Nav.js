@@ -30,9 +30,9 @@ const Nav = (props) => {
                 {/* <!-- <li className="nav-item">
                     <NavLink className="nav-link" to={"">Log in</NavLink>
                   </li> --> */}
-                <form className="form-inline mt-2 mt-md-0">
+                {/* <form className="form-inline mt-2 mt-md-0">
                   <a href={'mailto: schuylerluckey@gmail.com'} className="btn btn-sm btn-dark mt-n1 ml-1">Email</a>
-                </form>
+                </form> */}
             </ul>
           </div>
         </div>

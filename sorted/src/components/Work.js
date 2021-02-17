@@ -11,7 +11,6 @@ const Work = () => {
           <Fade bottom>
             <h1>Work</h1>
           </Fade>
-
           <div className="grid">
             <Fade bottom cascade>
               {data.projects.map(project => (

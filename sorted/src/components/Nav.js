@@ -10,9 +10,9 @@ const Nav = (props) => {
 
     <nav className="desktop-nav fixed-top navbar navbar-toggleable-md" >
         <div style={{display: 'flex', listStyle: 'none',  }}>
-          <NavLink className="navbar-nav ml-auto links-wrapper" to={"/"} style={{marginTop: '17px'}}>
+          {/* <NavLink className="navbar-nav ml-auto links-wrapper" to={"/"} style={{marginTop: '17px'}}>
             My Portfolio
-          </NavLink>
+          </NavLink> */}
           <div className="collapse navbar-collapse navbar-wrapper" style={{display: 'flex', marginLeft: 'auto'}} >
             <ul className="navbar-nav ml-auto links-wrapper"style={{display: 'flex', listStyle: 'none',  }}>
                 <li className="nav-item">

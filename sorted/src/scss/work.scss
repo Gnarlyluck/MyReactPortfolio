@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   h1 {
     font-size: 3rem;
     line-height: 20px;
@@ -14,6 +15,15 @@
     margin-top: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=tablet", "<desktop") {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   .container {
     width: 100%;

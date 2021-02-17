@@ -1,3 +1,16 @@
+import cssIcon from "./Images/css3.svg"
+import reactIcon from "./Images/react.svg"
+import jsIcon from "./Images/js.svg"
+import pythonIcon from "./Images/python.svg"
+import html5Icon from './Images/html5.svg'
+import reduxIcon from './Images/redux.svg'
+import postgreSQLIcon from './Images/postgresql.svg'
+import npmIcon from './Images/npms.svg'
+import nodeJsIcon from './Images/nodejs.svg'
+// Social Icon
+import LinkedInIcon from './Images/LinkedIn.svg'
+import githubIcon from "./Images/github.svg"
+
 export default {
     projects: [
         {
@@ -28,4 +41,70 @@ export default {
           url: "http://quixotic-name.surge.sh/index.html",
         },
       ],
+
+      skills: [
+        {
+          id: 1,
+          img: html5Icon,
+          para:
+            "HTML5 ",
+        },
+        {
+          id: 2,
+          img: cssIcon,
+          para:
+            "CSS3",
+        },
+        {
+          id: 3,
+          img: jsIcon,
+          para:
+            "JavasScript",
+        },
+        {
+          id: 4,
+          img: reactIcon,
+          para:
+            "React",
+        },
+        {
+          id: 5,
+          img: reduxIcon,
+          para:
+            "Redux",
+        },
+        {
+          id: 6,
+          img: pythonIcon,
+          para:
+            "Python",
+        },
+        {
+          id: 7,
+          img: postgreSQLIcon,
+          para:
+            "PostgreSQL",
+        },
+        {
+          id: 8,
+          img: npmIcon,
+          para:
+            "Npm",
+        },
+        {
+          id: 9,
+          img: nodeJsIcon,
+          para:
+            "NodeJs",
+        },
+      ],
+      social: [
+        // Add Or Remove The Link Accordingly
+        { img: githubIcon, 
+          url: "https://github.com/Gnarlyluck" },
+        {
+          img: LinkedInIcon,
+          url: "https://www.linkedin.com/in/schuyler-luckey/",
+        },
+      ]
 }

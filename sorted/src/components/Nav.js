@@ -8,8 +8,8 @@ const Nav = (props) => {
     
     return (
 
-    <nav className="desktop-nav fixed-top navbar navbar-toggleable-md section" >
-        <div className="container "style={{display: 'flex', listStyle: 'none',  }}>
+    <nav className="desktop-nav fixed-top navbar navbar-toggleable-md" >
+        <div style={{display: 'flex', listStyle: 'none',  }}>
           <NavLink className="navbar-nav ml-auto links-wrapper" to={"/"} style={{marginTop: '17px'}}>
             My Portfolio
           </NavLink>

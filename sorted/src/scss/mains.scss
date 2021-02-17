@@ -1,16 +1,17 @@
 @charset "utf-8";
+@import "./include-media.scss";
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 
 @import "./card.scss";
 
 // Components
-// @import "./navbar.scss";
 // @import "./header.scss";
 @import "./work.scss";
-// @import "./about.scss";
-// @import "./skills.scss";
-// @import "./promotion.scss";
-// @import "./footer.scss";
+@import "./aboutMe.scss";
+@import "./skills.scss";
+@import "./promotion.scss";
+@import "./footer.scss";
 
 * {
   font-family: "Montserrat";
@@ -36,6 +37,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.aboutSec {
+  background-color: aqua;
 }
 
 .primary-btn {

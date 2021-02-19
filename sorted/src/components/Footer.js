@@ -15,6 +15,7 @@ const Footer = () => {
             <h2>{"Let's Create Together"}</h2>
           </Fade>
           <a className="email-link" href={`mailto: schuylerluckey@gmail.com`}>
+            "Contact Me"
           </a>
           <div className="social-icons">
             {data.social.map(socialLink => (

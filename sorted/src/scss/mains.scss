@@ -22,6 +22,37 @@ body {
   padding: 0;
   overflow-y: scroll;
   overflow-x: hidden;
+
+     background:linear-gradient(
+       72deg, 
+    #50609A 20%,
+     #4D2558 100%,
+      #B23FA0 80%,
+       #3A0624 30%, 
+        #5699D1 100%);
+  
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+  
 }
 
 .section {
@@ -38,9 +69,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-.aboutSec {
-  background-color: aqua;
-}
+// .aboutSec {
+//   background-color: aqua;
+// }
 
 .primary-btn {
   margin: 10px;

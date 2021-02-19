@@ -2,6 +2,10 @@
     width: 80vw;
     margin-top: 10vh;
     display: flex;
+    color: white;
+    text-align: center;
+
+
     justify-content: space-between;
     @include media(">=phone", "<lgphone") {
       flex-direction: column-reverse;
@@ -40,10 +44,11 @@
       }
     }
     .image-wrapper {
-        width: 50%;
+        width: 27%;
         height: 350px;
         display: flex;
         align-items: center;
+        border-radius: 50%;
         justify-content: center;
         overflow: hidden;
         @include media(">=phone", "<lgphone") {

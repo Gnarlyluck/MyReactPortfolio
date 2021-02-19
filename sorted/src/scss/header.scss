@@ -9,7 +9,9 @@
   justify-content: center;
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: white;
+
     text-align: center;
   }
   .heading-wrapper {
@@ -17,12 +19,16 @@
       font-size: 4rem;
       text-align: center;
       line-height: 20px;
+      color: white;
+
         font-size: 1.5rem;
         line-height: 10px;
     }
   }
   p {
     width: 50%;
+    color: white;
+
     text-align: center;
     overflow: hidden;
   }

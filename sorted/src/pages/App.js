@@ -1,5 +1,5 @@
 import '../styles/App.css';
-import { withRouter } from 'react-router-dom'
+// import { withRouter } from 'react-router-dom'
 import { Element } from 'react-scroll'
 import Layout from '../components/Layout'
 import Work from '../components/Work' 
@@ -25,4 +25,5 @@ function App() {
   );
 }
 
-export default withRouter(App);
+// export default withRouter(App);
+export default App;

@@ -9,7 +9,7 @@ const Promotion = () => {
           <Fade bottom cascade>
             <h1>{'My Brand'}</h1>
           </Fade>
-          <Fade bottom cascade>
+          <Fade >
           <p>{"I am a sharp-eyed software engineer that enjoys debugging code. Due to my 8 years of bar tending experience I am naturally efficient, organized, and clean which translates easily into my work as a full stack and application developer."}</p>
           </Fade>
         </div>

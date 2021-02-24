@@ -5,7 +5,7 @@ import styles from '../scss/mains.scss'
 const Layout = ({ children }) => {
   return (
     <div>
-      {/* <Nav></Nav> */}
+      <Nav></Nav>
       <main>{children}</main>
     </div>
   )

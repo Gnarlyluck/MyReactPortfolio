@@ -101,10 +101,13 @@ export default {
       social: [
         // Add Or Remove The Link Accordingly
         { img: githubIcon, 
-          url: "https://github.com/Gnarlyluck" },
+          url: "https://github.com/Gnarlyluck",
+          para: 'My Github'
+        },
         {
           img: LinkedInIcon,
           url: "https://www.linkedin.com/in/schuyler-luckey/",
+          para: 'My LinkedIn'
         },
       ]
 }

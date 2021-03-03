@@ -9,7 +9,7 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work</h1>
+            <h1>Portfolio</h1>
           </Fade>
           <div className="grid">
             <Fade bottom cascade>
@@ -24,6 +24,13 @@ const Work = () => {
               ))}
             </Fade>
           </div>
+          <a
+              href={'https://github.com/Gnarlyluck'}
+              className="primary-btn"
+              style={{borderRadius: '20px'}}
+            >
+              GitHub
+            </a>
         </div>
       </div>
     </div>

@@ -5,10 +5,13 @@ import '../styles/Nav.css'
 
 const Nav = () => {
     return (
-    <nav className="desktop-nav fixed-top navbar navbar-toggleable-md" >
+    <nav className="navbar" style={{backgroundColor: 'black', height: '75px'}}>
         <div style={{display: 'flex', listStyle: 'none'}}>
-          <div className="collapse navbar-collapse navbar-wrapper" style={{display: 'flex', marginLeft: 'auto'}} >
-            <ul className="navbar-nav ml-auto links-wrapper"style={{display: 'flex', listStyle: 'none'}}>
+            {/* <Link className="navbar-nav ml-auto links-wrapper"  style={{marginTop: '17px'}}>
+            My Portfolio
+           </Link> */}
+          <div className=" navbar-wrapper" style={{display: 'flex', marginLeft: 'auto'}} >
+            <ul className="navbar-nav links-wrapper"style={{display: 'flex', listStyle: 'none'}}>
                 <li className="nav-item">
                     <Link 
                         to='work'
@@ -18,7 +21,7 @@ const Nav = () => {
                         className='workScroll nav-link'
                         activeClass='active'
                     >
-                    Work
+                    Portfolio
                     </Link>
                 </li>
                 <li className="nav-item">
@@ -48,14 +51,15 @@ const Nav = () => {
                 </li>
                 <li className="nav-item">
                     <Link 
-                        to='contact'
+                    onClick={() => window.open('https://drive.google.com/file/d/1jTf6AIdDDjnXqQXU2lp2dcqExTIfpdOE/view?usp=sharing', '_blank')}
+                        href ='https://drive.google.com/file/d/1jTf6AIdDDjnXqQXU2lp2dcqExTIfpdOE/view?usp=sharing'
                         spy={true} 
                         smooth={true} 
                         duration={500} 
                         className='aboutScroll nav-link'
                         activeClass='active'
                     >
-                        Contact
+                        Resume
                     </Link>
                 </li>
             </ul>
